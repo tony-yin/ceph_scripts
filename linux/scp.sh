@@ -1,0 +1,18 @@
+SOURCEHOST=192.168.1.1
+DISTHOST=$1
+FILE1=/root/1/1.txt
+FILE2=/root/2/2.txt
+FILE3=/root/3/3.txt
+FOLDER1=/root/1/
+FOLDER2=/root/2/
+FOLDER3=/root/3/
+PASSWORD=123456
+scp FILE1 ${DISTHOST}${Folder1} << EOF
+$PASSWORD
+EOF
+scp FILE2 ${DISTHOST}${Folder2} << EOF
+$PASSWORD
+EOF
+scp FILE3 ${DISTHOST}${Folder3} << EOF
+$PASSWORD
+EOF
