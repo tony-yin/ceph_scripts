@@ -48,6 +48,12 @@ Usage：[通过 Keepalived 实现 Ceph RBD 的高可用][17]
 * [Keepalived-backup触发][8]
 * [Keepalived-master触发][9]
 
+### Megaraid Location
+
+Usage: [Megaraid Location][21]
+
+* [Megaraid Location][22]
+
 ### Python
 
 #### Python Oralce
@@ -63,6 +69,12 @@ Usage: [Python Profile][19]
 * [Python cprofile decorator][11]
 * [Python cprofile pstats][12]
 * [Python cprofile my pstats][13]
+
+#### Replace content in file name and file content
+
+Usage: `python replace_host.py [replaced str] [replace str]`
+
+* [Replace content in file name and file content][20]
 
 [1]: https://github.com/tony-yin/ceph_scripts/blob/master/ceph/osd/one_step_create_osd.sh
 [2]: https://github.com/tony-yin/ceph_scripts/blob/master/ceph/osd/one_step_delete_osd.sh
@@ -83,3 +95,6 @@ Usage: [Python Profile][19]
 [17]: http://www.tony-yin.top/2017/12/07/RBD-HA/
 [18]: http://www.tony-yin.top/2017/09/10/Python-Oracle/
 [19]: http://www.tony-yin.top/2017/10/10/Python-Profiler/
+[20]: https://github.com/tony-yin/ceph_scripts/blob/master/python/common/replace_host.py
+[21]: http://www.tony-yin.top/2018/05/12/Megaraid_Location/
+[22]: https://github.com/tony-yin/Megaraid_location
