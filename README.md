@@ -48,7 +48,7 @@ Usage：[通过 Keepalived 实现 Ceph RBD 的高可用][17]
 * [Keepalived-backup触发][8]
 * [Keepalived-master触发][9]
 
-### Megaraid Location
+### Megaraid 磁盘物理位置定位
 
 Usage: [Megaraid Location][21]
 
