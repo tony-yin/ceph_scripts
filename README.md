@@ -85,7 +85,8 @@ Usage:
 Two params are start_time and end_time, format is timestamp, which format is the same as time.time()
 
 2. return
-Return human seeing result. For example, '50s' interval return '50s', '61s' return '1min 1s', '3661s' return '1h 1min 1s'...
+Return human seeing result. For example, '50s' interval return '50s', '61s' return '1min 1s', 
+'3661s' return '1h 1min 1s'...
 ```
 
 * [Format time interval][23]
