@@ -76,6 +76,20 @@ Usage: `python replace_host.py [replaced str] [replace str]`
 
 * [Replace content in file name and file content][20]
 
+#### Format time interval in python
+
+Usage: 
+
+```
+1. params
+Two params are start_time and end_time, format is timestamp, which format is the same as time.time()
+
+2. return
+Return human seeing result. For example, '50s' interval return '50s', '61s' return '1min 1s', '3661s' return '1h 1min 1s'...
+```
+
+* [Format time interval][23]
+
 [1]: https://github.com/tony-yin/ceph_scripts/blob/master/ceph/osd/one_step_create_osd.sh
 [2]: https://github.com/tony-yin/ceph_scripts/blob/master/ceph/osd/one_step_delete_osd.sh
 [3]: https://github.com/tony-yin/ceph_scripts/blob/master/disks/batch_create_disk_partition.py
@@ -98,3 +112,4 @@ Usage: `python replace_host.py [replaced str] [replace str]`
 [20]: https://github.com/tony-yin/ceph_scripts/blob/master/python/common/replace_host.py
 [21]: http://www.tony-yin.top/2018/05/12/Megaraid_Location/
 [22]: https://github.com/tony-yin/Megaraid_location
+[23]: https://github.com/tony-yin/ceph_scripts/blob/master/python/common/format_time_interval.py
